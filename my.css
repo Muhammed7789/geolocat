@@ -1,0 +1,37 @@
+/* Put your custom CSS here */
+
+
+ iframe{
+ position:static;
+ top:-290px;
+ left:40px;
+ z-index:1;
+ visibility:hidden;
+} 56.25% 60.21% 
+iframe{
+ position:absolute;
+ top:109px;
+ left:40px; 
+ visibility:hidden;
+} 
+
+.Flexible-container {
+    position: relative;
+    padding-bottom: 60%;
+    padding-top: 0px;
+    height: 0;
+    overflow: hidden;
+}
+.Flexible-container iframe,   
+.Flexible-container object,  
+.Flexible-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
